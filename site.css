@@ -1,0 +1,76 @@
+html{
+    font-family: sans-serif;
+}
+body{
+    margin: 10px; /*canh lề chữ*/
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 25px 0 15px 0;
+    text-align: center;
+}
+
+h1{
+    font-size: 40px;
+    font-weight: bold;
+    color: red;
+}
+h2{
+    font-size: 30px;
+    font-weight: bold;
+    color: red;
+}
+h3{
+    font-size: 13px;
+    font-weight: normal;
+    color: black;
+}
+#wrapper{
+    width: 80%;      /*Tỉ lệ thanh menu*/
+    margin: 0 auto;
+}
+.row{
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 10px; /*giản hàng*/
+}
+.header{
+    color: green;
+    text-transform: uppercase;
+     
+}
+.lbltitle{
+    width: 20%;
+    float: left;
+}
+.lblinput, .lbloutput{
+    width: 80%;
+    float: left;
+}
+.submit{
+    width: 50%;
+    float: left;
+}
+input, textarea{
+    width: 300px;
+}
+button{
+    width: 200px; /*Độ rộng nút button*/
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+img.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
